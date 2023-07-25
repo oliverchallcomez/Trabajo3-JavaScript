@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Catálogo de Juguetes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto hecho por Oliver Mhallco Meza</title>
+  <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="productos"> <!contenedor aside clase productos de N°, juguetes, precios contenido y nombre monopolo, ajedres, lego, dama, laberinto-->
+      <h2 class="jugueteria">Tienda jugueteria</h2>
+      <table>
+        <tr>
+          <th>N°</th>
+          <th>Juguetes</th>
+          <th>Precios</th>
+        </tr>
+        <tr>
+          <td>01</td>
+          <td>Monopolio</td>
+          <td>70.99</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Ajedrez</td>
+          <td>78.99</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Lego</td>
+          <td>100.99</td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>Dama</td>
+          <td>58.50</td>
+        </tr>
+        <tr>
+          <td>05</td>
+          <td>Laberinto</td>
+          <td>35.00</td>
+        </tr>
+      </table>
+    </aside>
+
+  <article class="boleta"> <! contenedor article clase boleta donde estan producto cantidad, precio, sub total, descuento, total -->
+    <div class="guias">==============</div>
+    <div id="resultado"">
+      <div class="bol">
+        <p class="nom">Producto: </p>
+        <p id="producto"> Monopolio</p>
+      </div>
+
+      <div class="bol">
+        <p class="nom">Cantidad: </p>
+        <p id="cantidad"> 1</p>
+      </div>
+
+      <div class="bol">
+        <p class="nom">Precio: </p>
+        <p id="precio"> 70.99</p>
+      </div>
+
+      <div class="bol">
+        <p class="nom">Sub total: </p>
+        <p id="subtotal"> 70.99</p>
+      </div>
+
+      <div class="bol">
+        <p class="nom">Descuento: </p>
+        <p id="descuento"> -14.20</p>
+      </div><br>
+
+      <div class="guias">------------------------------</div>
+
+      <div class="bol">
+        <p class="nom">Total: </p>
+        <p id="total"> 56.79</p>
+      </div>
+    </div>
+    <div class="guias">________________</div>
+  </article>
+
+  </main>
+
+  <script src="js/jsformula.js"></script>
+</body>
+</html>

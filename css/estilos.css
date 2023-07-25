@@ -1,0 +1,69 @@
+
+
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CCS del contenerdor aside calse productos las clases son productos, jugueteriam, tablem table th dt  */
+
+.productos{
+  margin: auto;
+}
+
+.jugueteria{
+  text-align: center;
+  margin: 200px 0px 1px 0px;
+  font-size: 20px;
+}
+
+  table {
+    border: 1;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+
+
+/* CCS del contenedor article clase boleta, tenemos clase boleta, resulatdo, bol, nom, guias  */
+  .boleta{
+    padding: 35px;
+    border: 8px;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+  }
+
+  #resultado {
+    padding: 15;
+    text-align: left;
+    font-size: 12px;
+    line-height: -18px;
+  }
+.bol{
+    display: flex;
+    margin-right: 500px;
+    line-height: 0px;
+    margin: 0px 0px -14px 0px;
+    font-size: 18px;
+}
+
+.nom{
+  margin-right: 5px;
+  line-height: -50px;
+  font-size: 18px;
+}
+  
+
+  .guias{
+    margin: 0px -20px -5px 0px;
+    text-align: left;
+  }
